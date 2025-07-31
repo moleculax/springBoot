@@ -69,6 +69,11 @@ public class Reunion {
 		public void addAsistente(Persona asistente) {
 			asistentes.add(asistente);
 		}
+
+		@Override
+		public String toString() {
+			return "Reunion [id=" + id + ", asunto=" + asunto + ", fecha=" + fecha + "]";
+		}
 	
 		
 } 
