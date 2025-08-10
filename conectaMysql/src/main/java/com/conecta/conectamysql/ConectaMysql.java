@@ -33,7 +33,7 @@ public class ConectaMysql {
              ResultSet rs = stmt.executeQuery()) {
 
             while (rs.next()) {
-               System.out.println("ID: " + rs.getString("id"));
+               System.out.println("ID: " + rs.getInt("id"));
                System.out.println("NAME: " + rs.getString("name"));
                System.out.println("TELEFONO: " + rs.getString("telefono"));
 
